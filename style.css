@@ -1,0 +1,31 @@
+.desc {
+    background-color: #434343;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+
+}
+
+img {
+    height: 35vh;
+    border-radius: 10px;
+    transition: transform .1s ease-in-out;
+}
+
+img:hover {
+    transform: rotate(8deg);
+}
+
+.photo {
+    display: inline-block;
+    margin: 1vw;
+    border-radius: 3vw;
+}
