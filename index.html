@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dongdong Tea</title>
     <link rel="stylesheet" href="style.css">
-    <script src="./index.js"></script>
+
 </head>
 
 <body>
@@ -24,7 +24,7 @@
         </div>
 
         <div class="order-form-wrapper">
-            <form id="order-form" class="order-form" method="post" action>
+            <form id="orderForm" class="order-form" method="post" action>
                 <!-- milktea flavor -->
                 <div class="form-item">
                     <legend class="form-item-label" for="type">
@@ -178,9 +178,7 @@
                     <label for="address" class="form-item-label">
                         Delivery Address
                     </label>
-                    <textarea name="address" id="address" cols="30" required>
-
-            </textarea>
+                    <textarea name="address" id="address" cols="30" required></textarea>
                 </div>
                 <!-- phone number -->
                 <div class="form-item">
@@ -243,6 +241,7 @@
 
 
     </div>
+    <script src="./index.js"></script>
 </body>
 
 </html>
