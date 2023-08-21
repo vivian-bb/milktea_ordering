@@ -72,3 +72,36 @@ img:hover {
 .btn {
     margin: 20px;
 }
+
+.scroll-to-top {
+    position: fixed;
+    right: 12px;
+    bottom: 12px;
+    width: 38px;
+    border: 1px solid #595959;
+    padding: 4px;
+    border-radius: 8px;
+    font-size: 12px;
+    cursor: pointer;
+    color: #595959;
+}
+
+#scroll-btn {
+    opacity: 0;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    background-color: #ef476f;
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font: bold 20px monospace;
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+#scroll-btn.show {
+    opacity: 1;
+    transition: opacity 1s, transform 1s;
+}

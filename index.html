@@ -229,7 +229,7 @@
                 </div>
                 <!-- submit btn -->
                 <div class="btn-wrapper">
-                    <button class="btn primary" type="submit">Submit</button>
+                    <button id="button1" class="btn primary" type="submit" onclick="myFunction()">Submit</button>
                     <button class="btn" type="reset">Reset</button>
 
                 </div>
@@ -238,10 +238,13 @@
         </div>
 
     </div>
-
-
     </div>
+    <div class="scroll-to-top">Back to Top</div>
     <script src="./index.js"></script>
+    <script src="./scroll.js"></script>
+    <script>
+        const formData = new FormData(form);
+    </script>
 </body>
 
 </html>
